@@ -1,9 +1,9 @@
 dependencies:
 - name: rabbitmq
-  repository: https://raw.githubusercontent.com/bitnami/charts/pre-2022/bitnami
-  version: 6.28.1
+  repository: oci://registry-1.docker.io/bitnamicharts
+  version: 14.1.5
 - name: betydb
   repository: https://opensource.ncsa.illinois.edu/charts/
   version: 0.5.4
-digest: sha256:b1faaa40ed16ba32c1fac38402f172c11dca1147d68c22ffeca8fd619c10741f
-generated: "2022-07-26T13:56:22.537572157-05:00"
+digest: sha256:b9272fd065cc98fbd249264299119eda3e34e4ca7549321d4abdc5ee1cb0617b
+generated: "2024-05-20T22:01:23.656373228Z"

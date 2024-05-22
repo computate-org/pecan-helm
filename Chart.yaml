@@ -34,8 +34,8 @@ sources:
 # are enabled.
 dependencies:
 - name: rabbitmq
-  version: ~6
-  repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+  version: ~14
+  repository: oci://registry-1.docker.io/bitnamicharts
   condition: rabbitmq.enabled
 - name: betydb
   version: ~0.5
