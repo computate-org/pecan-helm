@@ -96,7 +96,7 @@ betydb:
 ## -------------------------------------------------------------------------------
 
 rabbitmq:
-  rabbitmq:
+  auth:
     username: guest
     password: guest
     erlangCookie: 1234thisisasupersecretoflength32

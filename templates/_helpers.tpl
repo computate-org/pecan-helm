@@ -91,7 +91,7 @@ Postgresql Environment for postgres
   valueFrom:
     secretKeyRef:
       name: {{ .Release.Name }}-postgresql
-      key: postgresql-password
+      key: postgres-password
 - name: BETYUSER
   value: {{ .Values.betydb.betyUser | quote }}
 - name: BETYPASSWORD
