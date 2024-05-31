@@ -306,6 +306,7 @@ persistence:
 
   ## sisze of the storage class
   size: 20Gi
+  accessMode: ReadWriteMany
 
   ## Annotations
   annotations: {}
