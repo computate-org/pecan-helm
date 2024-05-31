@@ -5,7 +5,7 @@ metadata:
   labels:
     {{- include "pecan.labels" . | nindent 4 }}
 spec:
-  replicas: {{ .Values.executor.replicaCount | default 1 }}
+  replicas: {{ .Values.executor.replicaCount }}
   selector:
     matchLabels:
       app.kubernetes.io/name: {{ include "pecan.name" . }}-executor
